@@ -29,8 +29,3 @@ TARGET_UPSTREAM = ""
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
 route = { pattern = "docker-staging-relay.monstrous-moonshine.com", custom_domain = true }
-
-
-[env.production.vars]
-MODE = "production"
-TARGET_UPSTREAM = ""
